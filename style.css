@@ -1,0 +1,47 @@
+img {
+    width: 100%;
+}
+
+img {
+    animation: harryFly 0.5s forwards infinite alternate;
+}
+
+@keyframes harryFly {
+    to {
+        transform: scale(1.05)
+    }
+}
+
+.form {
+    text-align: center;
+    font-family: Franklin Gothic Heavy;
+    font-size: 1.1em;
+    color: red;
+}
+body {
+    background-image: url(img/adidas-yeezy.png);
+}
+
+input {
+    border: 4px solid black;
+    height: 30px;
+    width: 200px;
+}
+button{
+    background: yellow;
+    text-decoration: underline;
+    margin-left: 45vw;
+    margin-top: 15px;
+    height: 50px;
+    width: 100px;
+}
+
+/*///////////// BORDER COLORS OF INPUTS IF INCORRECT/CORRECT////////////////////*/
+
+.inputIncorrect {
+    border-color: red;
+}
+
+.inputCorrect {
+    border-color: green;
+}
